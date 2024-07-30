@@ -1,0 +1,30 @@
+<div id="<%= dom_id(@product) %>">
+  <p class="mt-5">
+    <strong>Product Images:</strong>
+    <% @product.images.each do |attachment| %>
+      <% if attachment.blob.present? %>
+        <%= image_tag attachment.blob, size: "300x300", class: "img-thumbnail mr-2" %>
+      <% end %>
+    <% end %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= @product.name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description:</strong>
+    <%= @product.description %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Price:</strong>
+    <%= number_to_currency(@product.price) %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Stock:</strong>
+    <%= @product.stock %>
+  </p>
+</div>

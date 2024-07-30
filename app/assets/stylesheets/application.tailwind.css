@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --custom-blue: #3e97ff;
+  --orange-color: #ed8805;
+  --darkturquoise-color: #36aab9;
+  --white-color: #fdf9f3;
+  --brown-color: #2b2011;
+  --light-color: #fdf3e6;
+  --border-color: #101828;
+  --sidebar-border-color: #e2d6c5;
+  --footer-border-color: #2b2011;
+  --light-gray-color: #403628;
+  --card-border-color: #d7d4cf;
+  --hamguger-card-color:#4b4135;
+  --border-sidenar-color:#6f675d;
+  --notified-bg-color:#f7d5a5;
+  --details-bg-color:#f0ede7;
+}

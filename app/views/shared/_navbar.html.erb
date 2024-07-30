@@ -1,0 +1,47 @@
+<nav class="bg-custom-blue text-black fixed top-0 left-0 w-full shadow-lg z-50 ">
+  <div class="container mx-auto flex items-center justify-between p-4 text-black">
+    <a href="/" class="text-2xl font-bold text-black hover:text-gray-300 transition-colors duration-300">
+      <%= image_tag "logo.png", height: "90", class: "h-20" %>
+    </a>
+    <div class="hidden md:flex space-x-6">
+      <a href="/" class="text-black text-black hover:text-gray-300 transition-colors duration-300">Home</a>
+      <a href="/products" class="text-black text-black hover:text-gray-300 transition-colors duration-300">Products</a>
+      <a href="/categories" class="text-black hover:text-gray-300 transition-colors duration-300">Category</a>
+      <a href="/cart" class="text-black hover:text-gray-300 transition-colors duration-300">Cart</a>
+      
+      <% if signed_in? %>
+        <%= button_to destroy_user_session_path, method: :delete, class: "text-black hover:text-gray-300 transition-colors duration-300" do %>
+          Logout
+        <% end %>
+      <% else %> 
+        <a href="/users/sign_in" class="text-black hover:text-gray-300 transition-colors duration-300">Login</a>
+      <% end %>
+    </div>
+    <button id="navbar-toggle" class="md:hidden text-black">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+  <div id="navbar-menu" class="md:hidden bg-custom-blue text-black hidden">
+    <a href="/" class="block px-4 py-2 text-black hover:text-gray-300">Home</a>
+    <a href="/products" class="block px-4 py-2 text-black hover:text-gray-300">Products</a>
+    <a href="/categories" class="block px-4 py-2 text-black hover:text-gray-300">Category</a>
+    <a href="/cart" class="block px-4 py-2 text-black hover:text-gray-300">Cart</a>
+    
+    <% if signed_in? %>
+      <%= button_to destroy_user_session_path, method: :delete, class: "block px-4 py-2 text-black hover:text-gray-300" do %>
+        Logout
+      <% end %>
+    <% else %> 
+      <a href="/users/sign_in" class="block px-4 py-2 text-black hover:text-gray-300">Login</a>
+    <% end %>
+  </div>
+</nav>
+
+<script>
+  document.getElementById('navbar-toggle').addEventListener('click', function() {
+    const menu = document.getElementById('navbar-menu');
+    menu.classList.toggle('hidden');
+  });
+</script>
