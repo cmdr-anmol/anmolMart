@@ -1,0 +1,9 @@
+var hostUrl = "assets/";
+src = "assets/plugins/global/plugins.bundle.js";
+src = "assets/js/scripts.bundle.js";
+src = "assets/plugins/custom/datatables/datatables.bundle.js";
+src = "assets/plugins/custom/vis-timeline/vis-timeline.bundle.js";
+src = "assets/js/widgets.bundle.js";
+src = "assets/js/custom/apps/chat/chat.js";
+src = "assets/js/custom/utilities/modals/upgrade-plan.js";
+src = "assets/js/custom/utilities/modals/users-search.js";

@@ -9,14 +9,13 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
   <body>
     <%
 =begin%>
  <%= render 'shared/navbar' %> 
 <%
 =end%>
-    <main class="container mx-auto mt-2 px-5 flex flex-col">
+    <main>
       <% if notice %>
         <p class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4"><%= notice %></p>
       <% end %>

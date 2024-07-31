@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Log in</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
-  <link href="<%= asset_path 'plugins.bundle.css' %>" rel="stylesheet" type="text/css" />
-  <link href="<%= asset_path 'style.bundle.css' %>" rel="stylesheet" type="text/css" />
-</head>
-<body id="kt_body" class="app-blank app-blank">
-  <div class="d-flex flex-column flex-root" id="kt_app_root">
-    <div class="d-flex flex-column flex-lg-row flex-column-fluid">
-      <div class="d-flex flex-lg-row-fluid w-lg-50 bgi-size-cover bgi-position-center" style="background-image: url('<%= asset_path 'auth-bg.png' %>')">
-        <div class="d-flex flex-column flex-center p-6 p-lg-10 w-100">
-          <a href="index.html" class="mb-0 mb-lg-20">
-            <img alt="Logo" src="<%= asset_path 'logo.png' %>" class="h-90px h-lg-50px" />
-          </a>
-          <img class="d-none d-lg-block mx-auto w-300px w-lg-75 w-xl-500px mb-10 mb-lg-20" src="<%= asset_path 'auth-screens.png' %>" alt="" />
-          <h1 class="d-none d-lg-block text-white fs-2qx fw-bold text-center mb-7">Fast, Efficient and Productive</h1>
-          <div class="d-none d-lg-block text-white fs-base text-center">In this kind of post,
-            <a href="#" class="opacity-75-hover text-warning fw-semibold me-1">the blogger</a> introduces a person they’ve interviewed 
-            <br /> and provides some background information about 
-            <a href="#" class="opacity-75-hover text-warning fw-semibold me-1">the interviewee</a> and their 
-            <br /> work following this is a transcript of the interview.
-          </div>
-        </div>
-      </div>
-      <div class="d-flex flex-column flex-lg-row-fluid w-lg-50 p-10">
+<div class="d-flex flex-column flex-lg-row-fluid w-lg-50 p-10 m-auto">
         <div class="d-flex flex-center flex-column flex-lg-row-fluid">
           <div class="w-lg-500px p-10">
             <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form w-100", id: "kt_sign_in_form", 'data-kt-redirect-url': root_path }) do |f| %>
@@ -73,12 +45,5 @@
               </div>
             <% end %>
           </div>
-        </div>
-        
+        </div>        
       </div>
-    </div>
-  </div>
-  
-  
-</body>
-</html>

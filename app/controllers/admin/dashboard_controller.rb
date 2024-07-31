@@ -1,6 +1,7 @@
 class Admin::DashboardController < ApplicationController
   before_action :authenticate_user!
   before_action :check_admin
+  layout "admin"
 
   def index
     # Your dashboard code
