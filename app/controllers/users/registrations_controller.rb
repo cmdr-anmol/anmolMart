@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 class Users::RegistrationsController < Devise::RegistrationsController
-  layout "auth"
+  layout "auth", except: [:edit,:update]
+  layout "admin", only: [:edit,:update]
+
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
 
@@ -16,9 +18,10 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # end
 
   # GET /resource/edit
-  # def edit
-  #   super
-  # end
+  def edit
+    self.resource = current_user
+    render layout: "admin"
+  end
 
   # PUT /resource
   # def update

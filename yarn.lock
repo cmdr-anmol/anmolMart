@@ -7,6 +7,13 @@ autosize@^3.0.20:
   resolved "https://registry.yarnpkg.com/autosize/-/autosize-3.0.21.tgz#f182f40d17757d978a139a4c9ca40c4c0e448603"
   integrity sha512-xGFj5jTV4up6+fxRwtnAWiCIx/5N0tEnFn5rdhAkK1Lq2mliLMuGJgP5Bf4phck3sHGYrVKpYwugfJ61MSz9nA==
 
+datatables.net@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-2.1.2.tgz#7ba56756858ed7f18cacd71913c8a5d92f79b6b9"
+  integrity sha512-FZMH3bVqP6pKq/LwhFRoH22xW45bWt9eAdf7hmFrZkluXId6RNOr1EnrVvwHTo/f7l/rZX4wgHvnGvtOyj9Spw==
+  dependencies:
+    jquery ">=1.7"
+
 deepmerge@^2.0.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
@@ -16,6 +23,11 @@ fuzzysearch@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/fuzzysearch/-/fuzzysearch-1.0.3.tgz#dffc80f6d6b04223f2226aa79dd194231096d008"
   integrity sha512-s+kNWQuI3mo9OALw0HJ6YGmMbLqEufCh2nX/zzV5CrICQ/y4AwPxM+6TIiF9ItFCHXFCyM/BfCCmN57NTIJuPg==
+
+jquery@>=1.7, jquery@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
+  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
 
 keen-ui@^1.4.0:
   version "1.4.0"
