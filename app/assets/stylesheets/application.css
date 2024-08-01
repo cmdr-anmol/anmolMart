@@ -20,3 +20,12 @@
 @import "assets/plugins/global/plugins.bundle.css";
 @import "assets/plugins/custom/vis-timeline/vis-timeline.bundle.css";
 @import "assets/plugins/custom/datatables/datatables.bundle.css";
+@import "keen-ui/dist/keen-ui.css";
+
+@font-face {
+  font-family: "KeenIconsDuotone";
+  src: asset-url("/assets/keenicons/keenicons-duotone.woff") format("woff"),
+    asset-url("/assets/keenicons/keenicons-duotone.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

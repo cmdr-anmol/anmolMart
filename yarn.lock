@@ -2,7 +2,50 @@
 # yarn lockfile v1
 
 
+autosize@^3.0.20:
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/autosize/-/autosize-3.0.21.tgz#f182f40d17757d978a139a4c9ca40c4c0e448603"
+  integrity sha512-xGFj5jTV4up6+fxRwtnAWiCIx/5N0tEnFn5rdhAkK1Lq2mliLMuGJgP5Bf4phck3sHGYrVKpYwugfJ61MSz9nA==
+
+deepmerge@^2.0.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha512-R9hc1Xa/NOBi9WRVUWg19rl1UB7Tt4kuPd+thNJgFZoxXsTz7ncaPaeIm+40oSGuP33DfMb4sZt1QIGiJzC4EA==
+
+fuzzysearch@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/fuzzysearch/-/fuzzysearch-1.0.3.tgz#dffc80f6d6b04223f2226aa79dd194231096d008"
+  integrity sha512-s+kNWQuI3mo9OALw0HJ6YGmMbLqEufCh2nX/zzV5CrICQ/y4AwPxM+6TIiF9ItFCHXFCyM/BfCCmN57NTIJuPg==
+
+keen-ui@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/keen-ui/-/keen-ui-1.4.0.tgz#1e4436f583671a9eea2092a976fd486230d28b3d"
+  integrity sha512-/FRGOs1bdtJ4ebS6XzADmxvHtOsc1ELimaRX13N7b485zK8ct7stryOnB7w97Ng8+WB/vqzdnOHV2bd1F/VYPw==
+  dependencies:
+    autosize "^3.0.20"
+    deepmerge "^2.0.1"
+    fuzzysearch "^1.0.3"
+    lodash.debounce "^4.0.8"
+    tippy.js "^4.2.1"
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
+
+popper.js@^1.14.7:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
+
 swiper@^11.1.8:
   version "11.1.8"
   resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.1.8.tgz#16a9ce0441a45cc8d754280361a100e530364583"
   integrity sha512-sBFp7fA+IfZ/7BMcg8/JSEqDD1qZXBUyliT76yk3zIYVu2fMwFVAghhAJ9vBM5tJUtHW5qcD0pmeEGQs1EK14w==
+
+tippy.js@^4.2.1:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-4.3.5.tgz#882bff8d92f09bb0546d2826d5668c0560006f54"
+  integrity sha512-NDq3efte8nGK6BOJ1dDN1/WelAwfmh3UtIYXXck6+SxLzbIQNZE/cmRSnwScZ/FyiKdIcvFHvYUgqmoGx8CcyA==
+  dependencies:
+    popper.js "^1.14.7"
