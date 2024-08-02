@@ -1,25 +1,18 @@
 var hostUrl = "assets/";
-src = "assets/plugins/global/plugins.bundle.js";
-src = "assets/js/scripts.bundle.js";
-src = "assets/plugins/custom/datatables/datatables.bundle.js";
-src = "assets/plugins/custom/vis-timeline/vis-timeline.bundle.js";
-src = "assets/js/widgets.bundle.js";
-src = "assets/js/custom/apps/chat/chat.js";
-src = "assets/js/custom/utilities/modals/upgrade-plan.js";
-src = "assets/js/custom/utilities/modals/users-search.js";
-src = "assets/plugins/global/plugins.bundle.js";
-src = "assets/js/scripts.bundle.js";
-src = "assets/plugins/custom/datatables/datatables.bundle.js";
-src = "assets/js/custom/account/settings/signin-methods.js";
-src = "assets/js/custom/account/settings/profile-details.js";
-src = "assets/js/custom/account/settings/deactivate-account.js";
-src = "assets/js/custom/pages/user-profile/general.js";
-src = "assets/js/widgets.bundle.js";
-src = "assets/js/custom/apps/chat/chat.js";
-src = "assets/js/custom/utilities/modals/upgrade-plan.js";
-src = "assets/js/custom/utilities/modals/create-campaign.js";
-src = "assets/js/custom/utilities/modals/two-factor-authentication.js";
-src = "assets/js/custom/utilities/modals/users-search.js";
+
+import "assets/plugins/global/plugins.bundle.js";
+import "assets/js/scripts.bundle.js";
+import "assets/plugins/custom/datatables/datatables.bundle.js";
+import "assets/js/custom/account/settings/signin-methods.js";
+import "assets/js/custom/account/settings/profile-details.js";
+import "assets/js/custom/account/settings/deactivate-account.js";
+import "assets/js/custom/pages/user-profile/general.js";
+import "assets/js/widgets.bundle.js";
+import "assets/js/custom/apps/chat/chat.js";
+import "assets/js/custom/utilities/modals/upgrade-plan.js";
+import "assets/js/custom/utilities/modals/create-campaign.js";
+import "assets/js/custom/utilities/modals/two-factor-authentication.js";
+import "assets/js/custom/utilities/modals/users-search.js";
 
 $(document).ready(function () {
   var tableId = "#kt_table_widget_5_table";

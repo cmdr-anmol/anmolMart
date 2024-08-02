@@ -14,8 +14,8 @@
  *= require_self
  */
 @import "https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700";
-@import "admin/plugins.bundle";
-@import "admin/style.bundle";
+@import "/plugins.bundle";
+@import "/style.bundle";
 @import "assets/css/style.bundle.css";
 @import "assets/plugins/global/plugins.bundle.css";
 @import "assets/plugins/custom/vis-timeline/vis-timeline.bundle.css";
