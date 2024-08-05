@@ -9,8 +9,10 @@ Rails.application.config.assets.version = "1.0"
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
-# Rails.application.config.assets.precompile += %w( admin.js admin.css )
+# Rails.application.config.assets.precompile += %w( outer.js )
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets')
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets', 'outer')
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'javascripts','outer')
 
 # run this command after modifying this file 
 # rails assets: precompile

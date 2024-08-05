@@ -1,6 +1,13 @@
-//= link_tree ../images
-//= link_directory ../stylesheets .css
-//= link_tree ../../javascript .js
-//= link_tree ../../../vendor/javascript .js
-//= link_tree ../builds
-// = link admin.js
+// app/assets/config/manifest.js
+
+// Link all assets in the `images` directory
+// Link all stylesheets in the `stylesheets` directory
+// Link all JavaScript files in the `javascript` directory (if using Sprockets)
+// Link all JavaScript files in the `vendor/javascript` directory
+// Link all assets in the `public/assets` directory (if using Webpacker)
+//= link custom.js
+//= link tiny-slider.js
+//= link bootstrap.bundle.min.js
+//= link tiny-slider.css
+//= link style.css
+//= link bootstrap.min.css

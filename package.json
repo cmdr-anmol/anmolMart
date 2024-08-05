@@ -1,5 +1,5 @@
 {
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "@rails/webpacker": "5.4.4",
     "bootstrap": "^5.3.3",

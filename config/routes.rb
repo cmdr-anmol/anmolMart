@@ -2,6 +2,16 @@ Rails.application.routes.draw do
   
   # Define the root path route ("/")
   root to: "home#index"
+  get "/shop" ,to: "home#shop"
+  get "/about" ,to: "home#about"
+  get "/blog" ,to: "home#blog"
+  get "/contact" ,to: "home#contact"
+  get "/services" ,to: "home#service"
+  get "/checkout" ,to: "home#checkout"
+  get "/cart" ,to: "home#cart"
+  get "/thankyou" ,to: "home#thankyou"
+
+
 
 
   
