@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Admin Dashboard</title>
-    <link rel="shortcut icon" href="/assets/media/logos/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/inner/favicon.ico" />
 
    <%= stylesheet_link_tag 'plugins.bundle.css','style.bundle.css','datatables.bundle.css', 'https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700','data-turbolinks-track': 'reload'%> 
   </head>
@@ -152,7 +152,7 @@
             <!--end::Wrapper-->
             <!--begin::Pic-->
             <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-              <img src="/assets/media/stock/600x400/img-1.jpg" alt="" />
+              <img src="/assets/inner/img-1.jpg" alt="" />
             </div>
             <!--end::Pic-->
           </div>
@@ -199,7 +199,7 @@
             <!--end::Wrapper-->
             <!--begin::Pic-->
             <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-              <img src="/assets/media/stock/600x400/img-3.jpg" alt="" />
+              <img src="/assets/inner/img-3.jpg" alt="" />
             </div>
             <!--end::Pic-->
           </div>
@@ -246,7 +246,7 @@
             <!--end::Wrapper-->
             <!--begin::Pic-->
             <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-              <img src="/assets/media/stock/600x400/img-8.jpg" alt="" />
+              <img src="/assets/inner/img-8.jpg" alt="" />
             </div>
             <!--end::Pic-->
           </div>
@@ -293,7 +293,7 @@
             <!--end::Wrapper-->
             <!--begin::Pic-->
             <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-              <img src="/assets/media/stock/600x400/img-26.jpg" alt="" />
+              <img src="/assets/inner/img-26.jpg" alt="" />
             </div>
             <!--end::Pic-->
           </div>
@@ -340,7 +340,7 @@
             <!--end::Wrapper-->
             <!--begin::Pic-->
             <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-              <img src="/assets/media/stock/600x400/img-21.jpg" alt="" />
+              <img src="/assets/inner/img-21.jpg" alt="" />
             </div>
             <!--end::Pic-->
           </div>
@@ -387,7 +387,7 @@
             <!--end::Wrapper-->
             <!--begin::Pic-->
             <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-              <img src="/assets/media/stock/600x400/img-34.jpg" alt="" />
+              <img src="/assets/inner/img-34.jpg" alt="" />
             </div>
             <!--end::Pic-->
           </div>
@@ -434,7 +434,7 @@
             <!--end::Wrapper-->
             <!--begin::Pic-->
             <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-              <img src="/assets/media/stock/600x400/img-27.jpg" alt="" />
+              <img src="/assets/inner/img-27.jpg" alt="" />
             </div>
             <!--end::Pic-->
           </div>
@@ -483,60 +483,9 @@
     <!--end::Modal - Invite Friend-->
     <!--end::Modals-->
     <!--begin::Javascript-->
-     <script>
-      var hostUrl = "assets/";
-    </script>
-    <!--begin::Global Javascript Bundle(mandatory for all pages)-->
-    <script src="/assets/plugins/global/plugins.bundle.js"></script>
-    <script src="/assets/js/scripts.bundle.js"></script>
-    <!--end::Global Javascript Bundle-->
-    <!--begin::Vendors Javascript(used for this page only)-->
-    <script src="/assets/plugins/custom/datatables/datatables.bundle.js"></script>
-    <script src="/assets/plugins/custom/vis-timeline/vis-timeline.bundle.js"></script>
-    <!--end::Vendors Javascript-->
-    <!--begin::Custom Javascript(used for this page only)-->
-    <script src="/assets/js/widgets.bundle.js"></script>
-    <script src="/assets/js/custom/apps/chat/chat.js"></script>
-    <script src="/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-    <script src="/assets/js/custom/utilities/modals/users-search.js"></script>
+<%= javascript_include_tag 'plugins.bundle', 'scripts.bundle', 'datatables.bundle', 'vis-timeline.bundle', 'formrepeater.bundle', 'widgets.bundle', 'chat', 'upgrade-plan', 'users-search', 'create-campaign', 'export', 'list', 'add','update', 'save-category'%>
 
-    <script>
-  var hostUrl = "/assets/";
-</script>
-<!--begin::Global Javascript Bundle(mandatory for all pages)-->
-<script src="/assets/plugins/global/plugins.bundle.js"></script>
-<script src="/assets/js/scripts.bundle.js"></script>
-<!--end::Global Javascript Bundle-->
-<!--begin::Vendors Javascript(used for this page only)-->
-<script src="/assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<!--end::Vendors Javascript-->
-<!--begin::Custom Javascript(used for this page only)-->
-<script src="/assets/js/custom/apps/customers/list/export.js"></script>
-<script src="/assets/js/custom/apps/customers/list/list.js"></script>
-<script src="/assets/js/custom/apps/customers/add.js"></script>
-<script src="/assets/js/widgets.bundle.js"></script>
-<script src="/assets/js/custom/apps/chat/chat.js"></script>
-<script src="/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-<script src="/assets/js/custom/utilities/modals/create-campaign.js"></script>
-<script src="/assets/js/custom/utilities/modals/users-search.js"></script>
-
-<!--begin::Javascript-->
-		<script>var hostUrl = "/assets/";</script>
-		<!--begin::Global Javascript Bundle(mandatory for all pages)-->
-		<script src="/assets/plugins/global/plugins.bundle.js"></script>
-		<script src="/assets/js/scripts.bundle.js"></script>
-		<!--end::Global Javascript Bundle-->
-		<!--begin::Vendors Javascript(used for this page only)-->
-		<script src="/assets/plugins/custom/datatables/datatables.bundle.js"></script>
-		<script src="/assets/plugins/custom/formrepeater/formrepeater.bundle.js"></script>
-		<!--end::Vendors Javascript-->
-		<!--begin::Custom Javascript(used for this page only)-->
-		<script src="/assets/js/custom/apps/ecommerce/catalog/save-category.js"></script>
-		<script src="/assets/js/widgets.bundle.js"></script>
-		<script src="/assets/js/custom/apps/chat/chat.js"></script>
-		<script src="/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-		<script src="/assets/js/custom/utilities/modals/create-campaign.js"></script>
-		<script src="/assets/js/custom/utilities/modals/users-search.js"></script>
+<!--end::Custom Javascript-->
 
     
   </body>

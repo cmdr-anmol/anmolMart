@@ -14,3 +14,19 @@
 //= link datatables.bundle.css
 //= link plugins.bundle.css
 //= link style.bundle.css
+
+//= link plugins.bundle.js
+//= link scripts.bundle.js
+//= link datatables.bundle.js
+//= link vis-timeline.bundle.js
+//= link formrepeater.bundle.js
+//= link widgets.bundle.js
+//= link chat.js
+//= link upgrade-plan.js
+//= link users-search.js
+//= link create-campaign.js
+//= link export.js
+//= link list.js
+//= link add.js
+//= link update.js
+//= link save-category.js
