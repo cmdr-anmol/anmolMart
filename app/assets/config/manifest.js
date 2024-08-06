@@ -11,3 +11,6 @@
 //= link tiny-slider.css
 //= link style.css
 //= link bootstrap.min.css
+//= link datatables.bundle.css
+//= link plugins.bundle.css
+//= link style.bundle.css

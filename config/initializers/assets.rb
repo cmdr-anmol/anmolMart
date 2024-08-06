@@ -13,6 +13,8 @@ Rails.application.config.assets.version = "1.0"
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets')
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets', 'outer')
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'javascripts','outer')
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets', 'inner')
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'javascripts','inner')
 
 # run this command after modifying this file 
 # rails assets: precompile
