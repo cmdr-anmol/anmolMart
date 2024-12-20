@@ -15,6 +15,8 @@ Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'style
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'javascripts','outer')
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets', 'inner')
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'javascripts','inner')
+Rails.application.config.assets.precompile += %w( bootstrap.min.css )
+
 
 # run this command after modifying this file 
 # rails assets: precompile

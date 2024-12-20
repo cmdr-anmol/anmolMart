@@ -77,4 +77,6 @@ gem "letter_opener", group: :development
 gem 'webpacker'
 
 gem 'dotenv-rails'
+gem 'bootstrap'
+
 
