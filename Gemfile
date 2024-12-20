@@ -78,5 +78,7 @@ gem 'webpacker'
 
 gem 'dotenv-rails'
 gem 'bootstrap'
+gem 'sassc-rails'
+
 
 
